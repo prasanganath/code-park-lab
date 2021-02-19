@@ -8,6 +8,10 @@ There is a two main file
 
 ###Run the programme###
 
+firstly craete the scema in your local mysql that name is,
+
+code_park_labs
+
 *angular-frontend*
 
 first go to this folder and open the terminal then run,
