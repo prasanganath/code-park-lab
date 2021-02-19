@@ -1,0 +1,23 @@
+<h2> Note List</h2>
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th> Author</th>
+            <th> First Paragraph </th>
+            <th> Second Pragraph</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let note of notes" >
+            <td> {{ note.auther }} </td>
+            <td> {{ note.firstPar }} </td>
+            <td> {{ note.lastPar }} </td>
+            <td>
+                <button (click) = "updateNote(note.id)" class = "btn btn-info"> Update</button>
+                <button (click) = "deleteNote(note.id)" class = "btn btn-danger" style="margin-left: 10px"> Delete</button>
+                <button (click) = "noteDetails(note.id)" class = "btn btn-info" style="margin-left: 10px"> View</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
