@@ -13,6 +13,7 @@ There is a two main file
 first go to this folder and open the terminal then run,
 
 npm-install
+
 npm start
 
 You can open the app ==> https://localhost:4200
