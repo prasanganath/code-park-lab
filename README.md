@@ -20,7 +20,7 @@ You can open the app ==> https://localhost:4200
 
 *springboot-backend*
 
-go to inside this folder and open the terminal and then run,
+go to inside this folder and open the terminal and then run this java class,
 
 SpringbootBackendApplication.java
 
